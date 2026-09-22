@@ -2,7 +2,7 @@
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=venom&height=240&text=JFANTIN&fontSize=70&animation=fadeIn&fontColor=ffffff&color=0:05000A,50:6D28D9,100:05000A&desc=.NET%20%7C%20CYBERSECURITY%20%7C%20LINUX&descAlignY=80"/>
 
-<br>
+
 
 
 
@@ -16,7 +16,7 @@
 
 <img src="https://skillicons.dev/icons?i=linux,docker,nginx,cmake,git,github,vscode,visualstudio" />
 
-<br><br>
+
 
 <img src="https://skillicons.dev/icons?i=postgres,mysql,rails,nodejs,nextjs,angular,arduino,bash" />
 
