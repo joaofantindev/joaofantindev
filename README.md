@@ -10,7 +10,7 @@
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=cs,dotnet,python,rust,cpp,c,ruby,ts" />
+<img src="https://skillicons.dev/icons?i=cs,dotnet,python,cpp,c" />
 
 <br>
 
@@ -18,7 +18,7 @@
 
 
 
-<img src="https://skillicons.dev/icons?i=postgres,mysql,rails,nodejs,nextjs,angular,arduino,bash" />
+<img src="https://skillicons.dev/icons?i=postgres,mysql,rails,nodejs,angular,arduino,bash" />
 
 </div>
 
