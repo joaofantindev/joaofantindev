@@ -10,15 +10,15 @@
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=cs,dotnet,python,cpp,c" />
-
-<br>
-
-<img src="https://skillicons.dev/icons?i=linux,docker,nginx,cmake,git,github,vscode,visualstudio" />
+![My Skills](https://skillicons.dev/icons?i=go,kubernetes,docker,cpp,c,arch,debian,kali)
 
 
 
-<img src="https://skillicons.dev/icons?i=postgres,mysql,rails,nodejs,angular,arduino,bash" />
+<img src="https://skillicons.dev/icons?i=linux,python,nginx,cmake,git,github,vscode,blender" />
+
+
+
+<img src="https://skillicons.dev/icons?i=postgres,mysql,ruby,rails,arduino,bash,windows,cs" />
 
 </div>
 
