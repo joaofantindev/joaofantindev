@@ -2,7 +2,7 @@
 
 <div align="center">
 <img src="imagens/fundo.gif" width="100%" alt="GIF de fundo">
-<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&height=240&text=JFANTIN&fontSize=70&animation=fadeIn&fontColor=ffffff&color=0:05000A,50:6D28D9,100:05000A&desc=.NET%20%7C%20CYBERSECURITY%20%7C%20LINUX&descAlignY=80"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&height=240&text=JFANTIN&fontSize=70&animation=fadeIn&fontColor=ffffff&color=0:05000A,50:6D28D9,100:05000A&desc=.NET%20%7C%20CYBERSECURITY%20%7C%20LINUX&descAlignY=80"/>
 
 
 
