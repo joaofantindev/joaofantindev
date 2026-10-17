@@ -11,7 +11,7 @@
 
 <img src="https://skillicons.dev/icons?i=python,nginx,cmake,git,github,vscode" />
 
-<img src="https://skillicons.dev/icons?i=postgres,mysql,arduino,rails,ruby" />
+<img src="https://skillicons.dev/icons?i=postgres,mysql,arduino,rails,ruby,java,spring" />
 </div>
 
 <div align="center">
