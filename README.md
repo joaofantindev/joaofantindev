@@ -37,12 +37,36 @@ Gosto de explorar ferramentas, sistemas e linguagens diferentes — do baixo ní
 
 <div align="center">
 
-<a href="https://github.com/joaofantindev">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=joaofantindev&show_icons=true&hide_border=true&bg_color=08090D&title_color=FF3048&text_color=F1F1F1&icon_color=B5122B&rank_icon=github&include_all_commits=true" alt="Estatísticas do GitHub">
-</a>
-<a href="https://github.com/joaofantindev">
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=joaofantindev&layout=donut-vertical&langs_count=7&hide_border=true&bg_color=08090D&title_color=FF3048&text_color=F1F1F1" alt="Gráfico das linguagens mais usadas">
-</a>
+<table width="100%" border="0" cellpadding="6" cellspacing="0"
+  style="width: 100%; border: 0; border-collapse: collapse;">
+  <tr>
+    <td width="50%" align="center" style="width: 50%; vertical-align: middle;">
+      <img width="495"
+        style="display: block; width: 100%; max-width: 495px; height: auto; margin: auto;"
+        src="https://streak-stats.demolab.com?user=joaofantindev&theme=transparent&hide_border=true&background=05000A&ring=A78BFA&fire=6D28D9&currStreakLabel=E9D5FF&sideLabels=E9D5FF&dates=9CA3AF"
+        alt="Sequência de contribuições">
+    </td>
+    <td rowspan="2" width="50%" align="center"
+      style="width: 50%; vertical-align: middle;">
+      <a href="https://github.com/joaofantindev">
+        <img width="495"
+          style="display: block; width: 100%; max-width: 495px; height: auto; margin: auto;"
+          src="https://github-readme-stats.vercel.app/api/top-langs/?username=joaofantindev&layout=donut&langs_count=7&hide_border=true&bg_color=05000A&title_color=A78BFA&text_color=E9D5FF"
+          alt="Gráfico de linguagens mais usadas">
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center" style="width: 50%; vertical-align: middle;">
+      <a href="https://github.com/joaofantindev">
+        <img width="495"
+          style="display: block; width: 100%; max-width: 495px; height: auto; margin: auto;"
+          src="https://github-readme-stats.vercel.app/api?username=joaofantindev&show_icons=true&hide_border=true&bg_color=05000A&title_color=A78BFA&text_color=E9D5FF&icon_color=6D28D9&rank_icon=github&include_all_commits=true"
+          alt="Estatísticas do GitHub">
+      </a>
+    </td>
+  </tr>
+</table>
 
 </div>
 
