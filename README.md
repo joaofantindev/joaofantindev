@@ -1,17 +1,8 @@
-<!--
-  README de perfil para github.com/joaofantindev
-  O banner abaixo usa o arquivo já existente no seu repositório: images/read.png
--->
-
 <div align="center">
 
-<img src="images/read.png" width="100%" alt="Banner do perfil de João">
+<img src="https://capsule-render.vercel.app/api?type=waving&height=180&section=header&text=Jo%C3%A3o%20Fantin&fontSize=48&fontColor=E9D5FF&animation=fadeIn&color=0:05000A,50:6D28D9,100:05000A" width="100%" alt="Banner roxo de João Fantin">
 
-<br>
-
-<a href="https://github.com/joaofantindev">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&pause=1000&color=A78BFA&center=true&vCenter=true&width=650&lines=Ol%C3%A1%2C+eu+sou+Jo%C3%A3o+%F0%9F%91%8B;Desenvolvimento+%E2%80%A2+Linux+%E2%80%A2+Open+Source;Transformando+ideias+em+c%C3%B3digo" alt="Texto animado: Olá, eu sou João">
-</a>
+<h3>Desenvolvimento · Linux · Open Source</h3>
 
 <p>
   <a href="https://github.com/joaofantindev?tab=repositories"><img src="https://img.shields.io/badge/REPOSIT%C3%93RIOS-05000A?style=for-the-badge&logo=github&logoColor=A78BFA" alt="Repositórios"></a>
@@ -58,9 +49,6 @@ Gosto de explorar ferramentas, sistemas e linguagens diferentes — do baixo ní
 
 <img src="https://streak-stats.demolab.com?user=joaofantindev&theme=transparent&hide_border=true&background=05000A&ring=A78BFA&fire=6D28D9&currStreakLabel=E9D5FF&sideLabels=E9D5FF&dates=9CA3AF" alt="Sequência de contribuições">
 
-<br><br>
-
-<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=joaofantindev&bg_color=05000A&color=E9D5FF&line=8B5CF6&point=C4B5FD&area=true&hide_border=true" alt="Gráfico de atividade no GitHub">
 
 </div>
 

@@ -1,6 +1,10 @@
 name: GitHub Profile Visuals
 
 on:
+  push:
+    paths:
+      - "README.md"
+      - ".github/workflows/profile-visuals.yml"
   schedule:
     - cron: "0 18 * * *"
   workflow_dispatch:
