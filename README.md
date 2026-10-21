@@ -1,14 +1,13 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=180&section=header&text=Jo%C3%A3o%20Fantin&fontSize=48&fontColor=E9D5FF&animation=fadeIn&color=0:05000A,50:6D28D9,100:05000A" width="100%" alt="Banner roxo de João Fantin">
+<img src="images/read.png" width="100%" alt="Banner original do perfil">
+
+<br>
 
 <h3>Desenvolvimento · Linux · Open Source</h3>
 
-<p>
-  <a href="https://github.com/joaofantindev?tab=repositories"><img src="https://img.shields.io/badge/REPOSIT%C3%93RIOS-05000A?style=for-the-badge&logo=github&logoColor=A78BFA" alt="Repositórios"></a>
-  <a href="https://github.com/joaofantindev?tab=followers"><img src="https://img.shields.io/github/followers/joaofantindev?style=for-the-badge&logo=github&label=SEGUIDORES&color=6D28D9" alt="Seguidores"></a>
-  <img src="https://komarev.com/ghpvc/?username=joaofantindev&style=for-the-badge&color=6D28D9&label=VISITAS" alt="Visitas ao perfil">
-</p>
+<a href="https://github.com/joaofantindev?tab=repositories"><img src="https://img.shields.io/badge/REPOSIT%C3%93RIOS-08090D?style=for-the-badge&logo=github&logoColor=FF3048" alt="Repositórios"></a>
+<a href="https://github.com/joaofantindev?tab=followers"><img src="https://img.shields.io/github/followers/joaofantindev?style=for-the-badge&logo=github&label=SEGUIDORES&color=B5122B" alt="Seguidores"></a>
 
 </div>
 
@@ -34,25 +33,20 @@ Gosto de explorar ferramentas, sistemas e linguagens diferentes — do baixo ní
 
 </div>
 
-## 📊 GitHub em números
+## 📊 GitHub
 
 <div align="center">
 
 <a href="https://github.com/joaofantindev">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=joaofantindev&show_icons=true&hide_border=true&bg_color=05000A&title_color=A78BFA&text_color=E9D5FF&icon_color=6D28D9&rank_icon=github&include_all_commits=true" alt="Estatísticas do GitHub">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=joaofantindev&show_icons=true&hide_border=true&bg_color=08090D&title_color=FF3048&text_color=F1F1F1&icon_color=B5122B&rank_icon=github&include_all_commits=true" alt="Estatísticas do GitHub">
 </a>
 <a href="https://github.com/joaofantindev">
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=joaofantindev&layout=donut-vertical&langs_count=7&hide_border=true&bg_color=05000A&title_color=A78BFA&text_color=E9D5FF" alt="Gráfico de linguagens mais usadas">
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=joaofantindev&layout=donut-vertical&langs_count=7&hide_border=true&bg_color=08090D&title_color=FF3048&text_color=F1F1F1" alt="Gráfico das linguagens mais usadas">
 </a>
-
-<br>
-
-<img src="https://streak-stats.demolab.com?user=joaofantindev&theme=transparent&hide_border=true&background=05000A&ring=A78BFA&fire=6D28D9&currStreakLabel=E9D5FF&sideLabels=E9D5FF&dates=9CA3AF" alt="Sequência de contribuições">
-
 
 </div>
 
-## 🧊 Meu mapa de contribuições em 3D
+## 🧊 Contribuições em 3D
 
 <div align="center">
 
@@ -60,23 +54,11 @@ Gosto de explorar ferramentas, sistemas e linguagens diferentes — do baixo ní
 
 </div>
 
-## 🐍 Um pouco de movimento
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/joaofantindev/joaofantindev/main/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/joaofantindev/joaofantindev/main/output/github-contribution-grid-snake.svg">
-  <img src="https://raw.githubusercontent.com/joaofantindev/joaofantindev/main/output/github-contribution-grid-snake.svg" alt="Animação da cobra percorrendo o calendário de contribuições">
-</picture>
-
-</div>
-
 ---
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:05000A,50:6D28D9,100:05000A" alt="Rodapé roxo em ondas">
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&color=0:08090D,50:B5122B,100:08090D" alt="Rodapé roxo em ondas">
 
 <sub>Feito com curiosidade, café e commits ☕</sub>
 
