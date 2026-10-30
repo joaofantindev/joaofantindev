@@ -9,9 +9,9 @@
 
 ![My Skills](https://skillicons.dev/icons?i=go,kubernetes,docker,cpp,c,arch,debian,kali,bash,linux)
 
-<img src="https://skillicons.dev/icons?i=python,nginx,cmake,git,github,vscode" />
+<img src="https://skillicons.dev/icons?i=python,git,github,vscode" />
 
-<img src="https://skillicons.dev/icons?i=postgres,mysql,arduino,rails,ruby,java,spring" />
+<img src="https://skillicons.dev/icons?i=postgres,mysql,arduino,cs,dotnet,java,spring" />
 </div>
 
 <div align="center">
