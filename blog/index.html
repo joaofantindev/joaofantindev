@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#0a0a09">
+  <title>learn.log — repositório de aprendizados</title>
+  <meta name="description" content="Um devlog pessoal estático para anotar aprendizados de programação: snippets, explicações curtas e tags com cor — as notas são escritas direto no HTML.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='6' fill='%230a0a09'/%3E%3Cpath d='M9 3H4.5A1.5 1.5 0 0 0 3 4.5V9M15 3h4.5A1.5 1.5 0 0 1 21 4.5V9M3 15v4.5A1.5 1.5 0 0 0 4.5 21H9' stroke='%23f3f0e8' stroke-width='1.6' fill='none' stroke-linecap='round'/%3E%3Ccircle cx='17' cy='17' r='2' fill='%23ee8079'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="blog.css">
+  <link rel="canonical" href="https://joaofantindev.github.io/joaofantindev/blog/">
+</head>
+<body id="top">
+  <a class="skip-link" href="#notas">Pular para as notas</a>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#top" aria-label="learn.log — início">
+        <svg class="brand-mark" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M9 3H4.5A1.5 1.5 0 0 0 3 4.5V9M15 3h4.5A1.5 1.5 0 0 1 21 4.5V9M3 15v4.5A1.5 1.5 0 0 0 4.5 21H9" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+          <circle cx="17" cy="17" r="2" fill="#ee8079"/>
+        </svg>
+        <span class="brand-word">learn<span class="brand-dot">.</span>log</span>
+      </a>
+
+      <nav class="nav" aria-label="Navegação principal">
+        <a href="#notas">notas</a>
+        <a href="#sobre">sobre</a>
+        <a class="nav-ext" href="../index.html">portfólio <span aria-hidden="true">↗</span></a>
+        <a class="nav-ext" href="https://github.com/joaofantindev" target="_blank" rel="noopener">github <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap hero-inner">
+        <div class="hero-copy">
+          <span class="pill"><i class="live-dot" aria-hidden="true"></i> devlog pessoal · v2026.10</span>
+          <h1>Anote o que aprende.<br><span class="dim">Revise o que importa.</span></h1>
+          <p class="hero-sub">Um caderno público de programação: snippets, explicações curtas e tags que tingem a página. As notas são escritas direto no HTML e o restante da página se monta sozinho — sem banco, sem servidor e sem build.</p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#notas">
+              Explorar notas
+              <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <a class="btn btn-ghost" href="../index.html">← Voltar ao portfólio</a>
+          </div>
+
+          <p class="hero-meta">
+            <span>html · css · js</span>
+            <span aria-hidden="true">/</span>
+            <span>conteúdo direto no html</span>
+            <span aria-hidden="true">/</span>
+            <span>pensado para o github pages</span>
+          </p>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-glow" aria-hidden="true"></div>
+          <div class="editor hero-editor" aria-hidden="true">
+            <div class="editor-chrome">
+              <span class="dots"><i></i><i></i><i></i></span>
+              <div class="editor-tabs">
+                <span class="tab is-active">main.cpp</span>
+                <span class="tab">notas.md</span>
+              </div>
+              <span class="editor-branch"><svg viewBox="0 0 16 16" fill="none"><circle cx="4.5" cy="3.5" r="1.5" stroke="currentColor"/><circle cx="4.5" cy="12.5" r="1.5" stroke="currentColor"/><circle cx="11.5" cy="6.5" r="1.5" stroke="currentColor"/><path d="M4.5 5v6M4.5 9c0-1.5 3.5.5 3.5-1V8" stroke="currentColor" stroke-linecap="round"/></svg> main</span>
+            </div>
+            <div class="editor-code">
+              <div class="hline"><span class="ln">1</span><code><span class="tok-kw">int</span> <span class="tok-fn">criarContador</span>() {</code></div>
+              <div class="hline"><span class="ln">2</span><code>  <span class="tok-kw">int</span> total = <span class="tok-num">0</span>;</code></div>
+              <div class="hline"><span class="ln">3</span><code>&nbsp;</code></div>
+              <div class="hline"><span class="ln">4</span><code>  <span class="tok-kw">return</span> <span class="tok-kw">function</span> () {</code></div>
+              <div class="hline is-active"><span class="ln">5</span><code>    total += <span class="tok-num">1</span>;</code></div>
+              <div class="hline"><span class="ln">6</span><code>    <span class="tok-kw">return</span> total;</code></div>
+              <div class="hline"><span class="ln">7</span><code>  };</code></div>
+              <div class="hline"><span class="ln">8</span><code>}</code></div>
+              <div class="hline"><span class="ln">9</span><code>&nbsp;</code></div>
+              <div class="hline"><span class="ln">10</span><code><span class="tok-kw">int</span> contador = <span class="tok-fn">criarContador</span>();</code></div>
+              <div class="hline"><span class="ln">11</span><code>contador(); <span class="tok-comment">// 1</span></code></div>
+              <div class="hline"><span class="ln">12</span><code>contador(); <span class="tok-comment">// 2</span></code></div>
+            </div>
+            <div class="editor-status">
+              <i class="status-dot" aria-hidden="true"></i>
+              <span>javascript</span>
+              <span class="sep" aria-hidden="true">·</span>
+              <span>arquivo local</span>
+              <span class="spacer"></span>
+              <span>UTF-8</span>
+              <span class="sep" aria-hidden="true">·</span>
+              <span>LF</span>
+            </div>
+          </div>
+          <div class="float-tag float-tag-a" aria-hidden="true"><i style="--dot: var(--amber)"></i>code something</div>
+          <div class="float-tag float-tag-b" aria-hidden="true"><span class="check">✓</span> revisado em 2 min</div>
+        </div>
+      </div>
+    </section>
+
+    <div class="stats-bar">
+      <div class="wrap stats-inner">
+        <div class="stat"><strong id="stat-notes">0</strong><span>notas</span></div>
+        <div class="stat"><strong id="stat-tags">0</strong><span>assuntos</span></div>
+        <div class="stat"><strong id="stat-lines">0</strong><span>linhas de código</span></div>
+        <p class="stats-note">conteúdo no próprio html<br><span>index.html</span></p>
+      </div>
+    </div>
+
+    <section class="section" id="notas">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <span class="eyebrow">/ notas</span>
+            <h2>Aprendizados recentes</h2>
+          </div>
+          <p class="section-desc">Filtre por assunto, busque por conceito ou abra uma nota para ler a explicação e o código completo.</p>
+        </div>
+
+        <div class="toolbar">
+          <label class="search">
+            <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="9" cy="9" r="5.5" stroke="currentColor" stroke-width="1.5"/><path d="m13.2 13.2 3.3 3.3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+            <input id="search-input" type="search" placeholder="Buscar por título, tag ou código…" autocomplete="off" spellcheck="false" aria-label="Buscar notas">
+            <kbd aria-hidden="true">/</kbd>
+          </label>
+
+          <div class="toolbar-right">
+            <span class="result-count" id="result-count" role="status" aria-live="polite"></span>
+            <label class="select-wrap">
+              <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <select id="sort-select" aria-label="Ordenar notas">
+                <option value="recent">Mais recentes</option>
+                <option value="oldest">Mais antigas</option>
+                <option value="az">Título A–Z</option>
+              </select>
+            </label>
+          </div>
+        </div>
+
+        <div class="tagbar" id="tagbar" aria-label="Filtrar por assunto"></div>
+
+        <div class="notes-grid" id="notes-grid">
+          <!--#region-->COMECA OS CARD
+          
+          <article class="card">
+            <h2>Primeiro Card</h2>
+            <p class="tag">JavaScript</p>
+            <p class="lang">JavaScript</p>
+            <p class="file">first.js</p>
+            <time class="date" datetime="2026-10-27">27 de outubro de 2026</time>
+            <div class="explanation">
+              <p>criando o primeiro card para visualização, clique no card para ver mais detalhes</p>
+              <p>cada card representa uma ideia ou conceito aprendido</p>
+              <ul>
+                <li>localstorage</li>
+                <li>Design com IA</li>
+                <li>paciencia com IA</li>
+              </ul>
+              <p>Cada card contem sua propria estilização de acordo com a tag</p>
+            </div>
+            <pre class="code">console.log('Hello, World!');</pre>
+            <ul class="concepts">
+              <li>ESPERO QUE GOSTEM!!!</li>
+              <li>ESPERO QUE GOSTEM!!!</li>
+              <li>ESPERO QUE GOSTEM!!!</li>
+            </ul>
+          </article>
+
+          <!-- #endregion -->
+        </div>
+
+        <div class="empty-state" id="empty-state" hidden></div>
+      </div>
+    </section>
+
+    <section class="section about" id="sobre">
+      <div class="wrap">
+        <div class="about-panel">
+          <div class="about-copy">
+            <span class="eyebrow">/ sobre</span>
+            <h2>Um repositório,<br>não um blog.</h2>
+            <p>Cada nota é curta de propósito: uma ideia, um exemplo de código e o que ficou de aprendizado. O objetivo não é escrever artigos — é criar um lugar para revisar rápido.</p>
+          </div>
+          <ul class="about-list">
+            <li><span class="about-num">01</span><span><strong>HTML de verdade.</strong> As notas são escritas como <code>&lt;article class="card"&gt;</code> no próprio <code>index.html</code> — sem banco, sem servidor e sem build.</span></li>
+            <li><span class="about-num">02</span><span><strong>Tags com cor.</strong> Cada assunto tem uma cor própria, definida no CSS, que tinge os cards, os filtros e o destaque da página.</span></li>
+            <li><span class="about-num">03</span><span><strong>Busca instantânea.</strong> Filtre por tag, título, explicação ou trecho de código.</span></li>
+            <li><span class="about-num">04</span><span><strong>Sem login.</strong> Não há conta nem rascunho: o site é 100% estático. Para adicionar uma nota, edite o HTML e faça commit.</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div class="footer-brand">
+        <svg class="brand-mark" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M9 3H4.5A1.5 1.5 0 0 0 3 4.5V9M15 3h4.5A1.5 1.5 0 0 1 21 4.5V9M3 15v4.5A1.5 1.5 0 0 0 4.5 21H9" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+          <circle cx="17" cy="17" r="2" fill="#ee8079"/>
+        </svg>
+        <span>learn<span class="brand-dot">.</span>log</span>
+        <span class="footer-sep" aria-hidden="true">/</span>
+        <span id="footer-year">2026</span>
+      </div>
+      <div class="footer-links">
+        <span>um devlog sobre programar</span>
+        <span class="mode-badge" id="mode-badge">100% estático</span>
+        <a href="../index.html">portfólio <span aria-hidden="true">↗</span></a>
+        <a href="https://github.com/joaofantindev" target="_blank" rel="noopener">github <span aria-hidden="true">↗</span></a>
+        <a href="#top">voltar ao topo ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <div class="noscript">Esta página precisa de JavaScript para montar as notas a partir do HTML.</div>
+  </noscript>
+
+  <div class="modal-layer" id="note-modal" hidden>
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="note-title">
+      <div class="modal-chrome">
+        <span class="dots" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span class="crumbs">~/notes/<span id="note-file">nota.md</span></span>
+        <button class="icon-btn" type="button" data-close aria-label="Fechar nota">
+          <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="m4 4 8 8M12 4l-8 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </button>
+      </div>
+      <div class="modal-body" id="note-content"></div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="blog.js"></script>
+</body>
+</html>

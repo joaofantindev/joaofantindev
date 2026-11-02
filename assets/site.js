@@ -124,31 +124,31 @@
   const SERVICES = [
     {
       icon: '<path d="M16 18l6-6-6-6M8 6l-6 6 6 6"/>',
-      title: 'Desenvolvimento Web',
-      desc: 'Aplicações web, APIs, sistemas e soluções com Ruby on Rails.',
-      resolve: 'ideias e processos que ainda dependem de planilha ou trabalho manual.',
-      tags: ['Rails', 'APIs', 'Web']
+      title: 'Back-end .NET e Java',
+      desc: 'APIs, serviços e sistemas com C#/.NET e Java/Spring.',
+      resolve: 'regras de negócio, integrações e processamento que precisam de robustez.',
+      tags: ['C#', '.NET', 'Java', 'Spring']
     },
     {
-      icon: '<path d="M13 2L4 14h7l-1 8 9-12h-7z"/>',
-      title: 'Automação com Python',
-      desc: 'Scripts, integração entre ferramentas e redução de tarefas repetitivas.',
-      resolve: 'tempo perdido repetindo as mesmas tarefas todo dia.',
-      tags: ['Python', 'Scripts', 'Integrações']
+      icon: '<rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M9 9v11"/>',
+      title: 'Aplicações Fullstack',
+      desc: 'Interfaces web conectadas às suas APIs, com foco em usabilidade.',
+      resolve: 'sistemas que precisam juntar back-end, dados e uma boa interface.',
+      tags: ['ASP.NET', 'Spring Boot', 'JavaScript']
     },
     {
       icon: '<ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 1.7 3.6 3 8 3s8-1.3 8-3V5M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"/>',
-      title: 'SQL e Dados',
-      desc: 'Consultas, estruturação relacional e manipulação de dados.',
-      resolve: 'dados bagunçados ou difíceis de consultar.',
+      title: 'Dados e SQL',
+      desc: 'Modelagem relacional, consultas e organização de dados.',
+      resolve: 'dados espalhados, consultas lentas ou informação difícil de acessar.',
       tags: ['SQL', 'PostgreSQL', 'MySQL']
     },
     {
       icon: '<path d="M12 2l8 3v6c0 5-3.4 9.4-8 11-4.6-1.6-8-6-8-11V5z"/><path d="M9 12l2 2 4-4"/>',
-      title: 'Infraestrutura e Segurança',
-      desc: 'Redes, Linux, laboratórios, hardening, diagnóstico e estudos de segurança.',
-      resolve: 'ambientes frágeis, mal configurados ou sem visibilidade.',
-      tags: ['Linux', 'Redes', 'Hardening']
+      title: 'Automação, Infra e Segurança',
+      desc: 'Scripts em Python, Linux, Docker e boas práticas de segurança.',
+      resolve: 'tarefas repetitivas e ambientes frágeis ou mal configurados.',
+      tags: ['Python', 'Linux', 'Docker']
     }
   ];
 
@@ -161,78 +161,33 @@
   ];
 
   const STACK = [
-    ['Desenvolvimento', ['Python', 'Ruby on Rails', 'JavaScript', 'Go', 'C / C++', 'Arduino']],
-    ['Dados', ['SQL', 'PostgreSQL', 'MySQL']],
-    ['Infraestrutura', ['Linux (Arch, Debian)', 'Bash', 'Docker', 'Kubernetes', 'Nginx', 'Git e GitHub']],
-    ['Segurança', ['Kali Linux', 'Defesa Windows', 'Engenharia reversa (estudos)']]
+    ['Back-end', ['C#', '.NET / ASP.NET Core', 'Java', 'Spring Boot', 'APIs REST']],
+    ['Front-end & Fullstack', ['JavaScript', 'HTML', 'CSS', 'Integração com APIs']],
+    ['Dados', ['SQL', 'PostgreSQL', 'MySQL', 'Modelagem relacional']],
+    ['Infra, automação e segurança', ['Python', 'C / C++', 'Pascal', 'Linux', 'Docker', 'Git e GitHub']]
   ];
-  const EV = new Set(['JavaScript', 'C / C++', 'SQL', 'Defesa Windows', 'Engenharia reversa (estudos)']);
+  const EV = new Set(['C#', 'Java', 'JavaScript', 'HTML', 'CSS', 'SQL', 'Python', 'C / C++', 'Pascal']);
 
   const SOLUTIONS = [
     {
       icon: '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.5 4 5.7 4 9s-1.5 6.5-4 9c-2.5-2.5-4-5.7-4-9s1.5-6.5 4-9z"/>',
-      title: 'Site ou sistema na internet',
-      desc: 'Aquela ideia ou negócio seu disponível de qualquer lugar, no celular ou no computador.'
+      title: 'API e back-end sob medida',
+      desc: 'Serviços e APIs em .NET ou Java para integrar seu sistema, app ou site.'
     },
     {
       icon: '<rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/>',
-      title: 'Programa para computador',
-      desc: 'Um programa que roda direto na sua máquina, mesmo sem internet.'
+      title: 'Sistema web completo',
+      desc: 'Do banco de dados à interface, com autenticação, painéis e relatórios.'
     },
     {
-      icon: '<rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/>',
-      title: 'Aplicativo para celular',
-      desc: 'Um app para seus clientes usarem de um jeito simples e prático.'
+      icon: '<path d="M8 7h8M8 12h8M8 17h5"/><rect x="3" y="3" width="18" height="18" rx="2"/>',
+      title: 'Integração entre sistemas',
+      desc: 'Conectar ERPs, planilhas, bancos e serviços que hoje não conversam.'
     },
     {
       icon: '<path d="M21 12a9 9 0 1 1-2.6-6.4M21 3v6h-6"/>',
-      title: 'Tarefas no automático',
-      desc: 'Aquela tarefa repetitiva que toma seu tempo passa a ser feita sozinha.'
-    }
-  ];
-
-  const PLANS = [
-    {
-      name: 'Essencial',
-      desc: 'Para começar sem gastar muito',
-      mods: '1 a 2 módulos',
-      price: 'a partir de R$ 800',
-      hi: false,
-      features: [
-        'Uma página ou sistema simples pra tirar a ideia do papel',
-        'Feito do seu jeito, com a sua cara',
-        'Funciona bem no celular e no computador',
-        'Um canal fácil pra seus clientes falarem com você',
-        'Entrega rápida'
-      ]
-    },
-    {
-      name: 'Profissional',
-      desc: 'Para quem quer crescer',
-      mods: '3 a 5 módulos',
-      price: 'a partir de R$ 2.000',
-      hi: true,
-      features: [
-        'Área de login pra você e seus clientes',
-        'Guarda e organiza suas informações com segurança',
-        'Painel simples pra gerenciar tudo sozinho',
-        'Tarefas do dia a dia feitas automaticamente',
-        'Conecta com os programas que você já usa'
-      ]
-    },
-    {
-      name: 'Avançado',
-      desc: 'O projeto completo',
-      mods: '6+ módulos',
-      price: 'sob consulta',
-      hi: false,
-      features: [
-        'Site, programa de computador e/ou aplicativo',
-        'Conversa com outros sistemas e serviços',
-        'Relatórios e gráficos fáceis de entender',
-        'Seus dados bem protegidos',
-        'Suporte e melhorias contínuas'
-      ]
+      title: 'Automação de processos',
+      desc: 'Scripts e rotinas que eliminam tarefas manuais e reduzem erros.'
     }
   ];
 
@@ -240,8 +195,8 @@
   const FALLBACK_GH = {
     repos: 29,
     langs: [
-      ['Python', 6], ['HTML', 6], ['JavaScript', 5], ['Outros', 4],
-      ['C++', 3], ['C', 1], ['CSS', 1], ['Rust', 1], ['C#', 1], ['Go', 1]
+      ['Python', 6], ['HTML', 6], ['JavaScript', 5], ['Pascal', 3], ['C++', 3],
+      ['Java', 2], ['C#', 1], ['C', 1], ['CSS', 1], ['Rust', 1]
     ],
     recent: [
       { name: 'SantoExpedito', lang: 'HTML', updated_at: '2026-10-19T14:10:42Z', url: GH_URL + '/SantoExpedito' },
@@ -424,9 +379,9 @@
   }
 
   /* ===== renderizações ===== */
-  const SERVICE_TABS = ['Desenvolvimento Web', 'Automação', 'SQL e Dados', 'Infra e Segurança'];
+  const SERVICE_TABS = ['Back-end', 'Fullstack', 'Dados e SQL', 'Automação e Infra'];
   const SERVICE_BG = ['bg-forest', 'bg-teal', 'bg-moss', 'bg-desert'];
-  const SERVICE_METRIC = ['Rails · APIs', 'Python · scripts', 'SQL · dados', 'Linux · defesa'];
+  const SERVICE_METRIC = ['C# · Java', 'APIs + UI', 'SQL · modelagem', 'Python · Linux'];
 
   function renderServices() {
     const root = $('#servicesGrid');
@@ -611,23 +566,6 @@
     `).join('');
   }
 
-  function renderPlans() {
-    const root = $('#plansGrid');
-    if (!root) return;
-    const check = icon('<path d="M5 12l4 4L19 6"/>', 'check');
-    root.innerHTML = PLANS.map((plan, i) => `
-      <article class="plan${plan.hi ? ' hi' : ''} rv" data-spotlight style="--d:${i * 80}ms">
-        ${plan.hi ? '<span class="plan-badge">mais escolhido</span>' : ''}
-        <h3>${esc(plan.name)}</h3>
-        <p class="plan-desc">${esc(plan.desc)}</p>
-        <div class="plan-price">${esc(plan.price)}</div>
-        <span class="plan-mods">${esc(plan.mods)}</span>
-        <ul>${plan.features.map((feature) => `<li>${check}<span>${esc(feature)}</span></li>`).join('')}</ul>
-        <a class="btn ${plan.hi ? 'btn-primary' : 'btn-outline'}" href="#contato"><span>Quero uma proposta</span></a>
-      </article>
-    `).join('');
-  }
-
   function renderContact() {
     const actions = $('#contactActions');
     const list = $('#contactList');
@@ -637,7 +575,7 @@
     const has = (value) => Boolean(value && String(value).trim());
     const waMessage = encodeURIComponent('Olá! Vi seu portfólio e quero conversar sobre um projeto.');
     const wa = has(CONFIG.whatsapp) ? `https://wa.me/${CONFIG.whatsapp}?text=${waMessage}` : '';
-    const mail = has(CONFIG.email) ? `mailto:${CONFIG.email}?subject=${encodeURIComponent('Projeto / orçamento')}` : '';
+    const mail = has(CONFIG.email) ? `mailto:${CONFIG.email}?subject=${encodeURIComponent('Projeto')}` : '';
     const channels = [
       { label: 'WhatsApp', href: wa, icon: '<path d="M20.5 11.5a8.5 8.5 0 0 1-12.6 7.5L3 20.5l1.5-4.9A8.5 8.5 0 1 1 20.5 11.5z"/><path d="M8.5 9.5c.5 3 2 4.5 5 5l1.5-1.5 1.5 1.5c-1 1.5-2.5 2-4 1.5-2.5-1-4.5-3-5.5-5.5-.5-1.5 0-3 1.5-4l1.5 1.5z"/>', primary: true },
       { label: 'E-mail', href: mail, icon: '<rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/>' },
@@ -802,14 +740,14 @@
     const terminal = $('#terminal');
     if (!terminal) return;
     const lines = [
-      ['c', '$ rails generate scaffold Cliente nome:string'],
-      ['m', '      create  app/models/cliente.rb'],
-      ['c', '$ python automacao/relatorio.py --mes atual'],
-      ['m', '[+] 128 linhas processadas, relatório gerado'],
+      ['c', '$ dotnet new webapi -n PedidosApi'],
+      ['m', '      template "ASP.NET Core Web API" criado'],
+      ['c', '$ mvn spring-boot:run'],
+      ['m', '[+] aplicação Java iniciada na porta 8080'],
       ['c', '$ psql -c "SELECT count(*) FROM pedidos;"'],
       ['m', ' count\n-------\n    42'],
-      ['c', '$ sudo ufw status | head -n 3'],
-      ['m', 'Status: active']
+      ['c', '$ dotnet test'],
+      ['m', 'Passed! 42 testes, 0 falhas']
     ];
 
     const render = (count) => {
@@ -1030,7 +968,7 @@
   function initScrollUI() {
     const header = $('#header');
     const progress = $('#progress');
-    const sectionIds = ['inicio', 'sobre', 'servicos', 'projetos', 'painel', 'stack', 'clientes', 'contato'];
+    const sectionIds = ['inicio', 'sobre', 'servicos', 'projetos', 'painel', 'stack', 'solucoes', 'contato'];
     const sections = sectionIds.map((id) => document.getElementById(id)).filter(Boolean);
     const links = $$('.nav-links a');
     let frame = 0;
@@ -1097,22 +1035,32 @@
   }
 
   const DONUT_COLORS = ['#255a41', '#3d8c66', '#78a890', '#b9cbb9', '#d7ddd2', '#a88c5c'];
+  const FOCUS_LANGS = ['C#', 'Java', 'Python', 'Pascal', 'C++'];
+
+  function focusLangRows(named) {
+    return FOCUS_LANGS
+      .map((name) => named.find(([lang]) => lang === name))
+      .filter(Boolean);
+  }
 
   function renderDashboard(data) {
     const langs = Array.isArray(data.langs) ? data.langs : [];
     const total = Number(data.repos) || langs.reduce((sum, entry) => sum + entry[1], 0) || 1;
     const named = langs.filter(([name]) => name !== 'Outros');
-    const outros = langs.filter(([name]) => name === 'Outros').reduce((sum, entry) => sum + entry[1], 0)
-      + named.slice(6).reduce((sum, entry) => sum + entry[1], 0);
-    const rows = named.slice(0, 6);
-    if (outros > 0) rows.push(['Outros', outros]);
+    const focus = focusLangRows(named);
+
+    /* Barras: as linguagens em foco aparecem primeiro e o restante vira "Outras". */
+    const rows = [...focus];
+    const rest = Math.max(0, total - focus.reduce((sum, entry) => sum + entry[1], 0));
+    if (rest > 0) rows.push(['Outras', rest]);
     const max = Math.max(...rows.map((entry) => entry[1]), 1);
 
     const bars = $('#langBars');
     if (bars) {
       bars.innerHTML = rows.map(([name, value]) => {
         const pct = Math.round((value / total) * 100);
-        return `<div class="bar-row" title="${pct}% dos repositórios"><span class="bar-label">${esc(name)}</span><span class="bar-track"><span class="bar-fill" data-scale="${(value / max).toFixed(3)}"></span></span><span class="bar-value">${value}</span></div>`;
+        const isFocus = FOCUS_LANGS.includes(name);
+        return `<div class="bar-row${isFocus ? ' focus' : ''}" title="${pct}% dos repositórios"><span class="bar-label">${esc(name)}</span><span class="bar-track"><span class="bar-fill" data-scale="${(value / max).toFixed(3)}"></span></span><span class="bar-value">${value}</span></div>`;
       }).join('');
       whenVisible(bars, () => {
         $$('.bar-fill', bars).forEach((fill, i) => {
@@ -1127,15 +1075,14 @@
     }
 
     const langFoot = $('#langFoot');
-    const langCount = langs.filter(([name]) => name !== 'Outros').length;
+    const langCount = named.length;
     if (langFoot) langFoot.textContent = `${total} repositórios · ${langCount} linguagens`;
 
     const donutSvg = $('#donutSvg');
     if (donutSvg) {
-      const donutRows = named.slice(0, 5);
-      const rest = named.slice(5).reduce((sum, entry) => sum + entry[1], 0)
-        + langs.filter(([name]) => name === 'Outros').reduce((sum, entry) => sum + entry[1], 0);
-      if (rest > 0) donutRows.push(['Outros', rest]);
+      const donutRows = focus.length ? [...focus] : named.slice(0, 5);
+      const rest = Math.max(0, total - donutRows.reduce((sum, entry) => sum + entry[1], 0));
+      if (rest > 0) donutRows.push(['Outras', rest]);
 
       const radius = 64;
       const circumference = 2 * Math.PI * radius;
@@ -1334,7 +1281,6 @@
     renderProcess();
     renderStack();
     renderSolutions();
-    renderPlans();
     renderContact();
     initTheme();
     initYear();

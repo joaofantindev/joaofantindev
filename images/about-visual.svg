@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-labelledby="aboutVisualTitle aboutVisualDesc">
+  <title id="aboutVisualTitle">Arquitetura back-end com .NET, Java e SQL</title>
+  <desc id="aboutVisualDesc">Ilustração técnica com uma janela de terminal executando comandos .NET e Java, conectada a cartões de tecnologias como C#, .NET, Java, Spring, PostgreSQL e API REST.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#12352a"/>
+      <stop offset="0.55" stop-color="#0c241b"/>
+      <stop offset="1" stop-color="#07150f"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#80c776" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#80c776" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#3d8c66" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#3d8c66" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0v40" fill="none" stroke="#7fb89a" stroke-opacity="0.09" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <rect width="800" height="600" fill="url(#grid)"/>
+  <circle cx="655" cy="90" r="235" fill="url(#glowA)"/>
+  <circle cx="120" cy="470" r="245" fill="url(#glowB)"/>
+  <circle cx="400" cy="266" r="248" fill="none" stroke="#7fb89a" stroke-opacity="0.10" stroke-width="1.5"/>
+
+  <!-- conexões entre os cartões e o painel -->
+  <g fill="none" stroke="#5fae83" stroke-opacity="0.38" stroke-width="1.5">
+    <path d="M150 90C150 120 188 118 220 128"/>
+    <path d="M650 90C650 120 612 118 580 128"/>
+    <path d="M158 432C168 424 192 418 232 416"/>
+    <path d="M642 432C632 424 608 418 568 416"/>
+  </g>
+
+  <!-- janela de terminal / API -->
+  <rect x="110" y="116" width="580" height="300" rx="22" fill="#0b2018" stroke="#2c5d46" stroke-width="1.5"/>
+  <path d="M111 162H689" stroke="#24503c" stroke-width="1.5"/>
+  <circle cx="142" cy="139" r="5" fill="#e07a72" opacity="0.9"/>
+  <circle cx="162" cy="139" r="5" fill="#d8b978" opacity="0.9"/>
+  <circle cx="182" cy="139" r="5" fill="#80c776" opacity="0.9"/>
+  <text x="212" y="144" fill="#7fa28c" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, monospace" font-size="13">api-gateway · dotnet / java</text>
+
+  <g font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, monospace" font-size="15">
+    <text x="142" y="198">
+      <tspan fill="#8fe0a8">$</tspan>
+      <tspan fill="#d9ebe0"> dotnet run --project Pedidos.Api</tspan>
+    </text>
+    <text x="142" y="230">
+      <tspan fill="#7fa28c">info:</tspan>
+      <tspan fill="#b8d9c4"> Now listening on http://localhost:5080</tspan>
+    </text>
+    <text x="142" y="262">
+      <tspan fill="#8fe0a8">$</tspan>
+      <tspan fill="#d9ebe0"> mvn spring-boot:run -q</tspan>
+    </text>
+    <text x="142" y="294">
+      <tspan fill="#b8d9c4">Started PedidosApplication in 2.4s</tspan>
+    </text>
+    <text x="142" y="326">
+      <tspan fill="#d9ebe0">GET /api/pedidos?status=aberto</tspan>
+      <tspan fill="#80c776">  200 OK</tspan>
+    </text>
+    <text x="142" y="358">
+      <tspan fill="#d9ebe0">SELECT * FROM pedidos WHERE status = </tspan>
+      <tspan fill="#d8b978">'aberto'</tspan>
+      <tspan fill="#d9ebe0">;</tspan>
+    </text>
+    <text x="142" y="390">
+      <tspan fill="#8fe0a8">→</tspan>
+      <tspan fill="#b8d9c4"> 42 rows em 18 ms</tspan>
+    </text>
+  </g>
+
+  <!-- cartões de tecnologia -->
+  <g font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, monospace">
+    <rect x="52" y="42" width="176" height="48" rx="14" fill="#14372a" stroke="#2f6b4f" stroke-width="1.5"/>
+    <circle cx="76" cy="66" r="4" fill="#80c776"/>
+    <text x="92" y="71" fill="#dcefe1" font-size="14">C# · .NET</text>
+
+    <rect x="572" y="42" width="176" height="48" rx="14" fill="#14372a" stroke="#2f6b4f" stroke-width="1.5"/>
+    <circle cx="596" cy="66" r="4" fill="#80c776"/>
+    <text x="612" y="71" fill="#dcefe1" font-size="14">Java · Spring</text>
+
+    <rect x="70" y="432" width="170" height="44" rx="12" fill="#14372a" stroke="#2f6b4f" stroke-width="1.5"/>
+    <circle cx="92" cy="454" r="4" fill="#80c776"/>
+    <text x="108" y="459" fill="#dcefe1" font-size="13">PostgreSQL</text>
+
+    <rect x="560" y="432" width="170" height="44" rx="12" fill="#14372a" stroke="#2f6b4f" stroke-width="1.5"/>
+    <circle cx="582" cy="454" r="4" fill="#80c776"/>
+    <text x="598" y="459" fill="#dcefe1" font-size="13">API REST</text>
+  </g>
+</svg>
