@@ -355,6 +355,51 @@ print("SHA-256:", digest)
     </ul>
 </article>
 
+<!-- ====================================================== -->
+<!-- SQL -->
+<!-- ====================================================== -->
+
+<article class="card">
+    <h2>Database Engineering</h2>
+    <p class="tag">SQL / Database</p>
+    <p class="lang">SQL</p>
+    <p class="file">database.sql</p>
+    <time class="date" datetime="2026-11-06">06 de novembro de 2026</time>
+    <div class="explanation">
+        <p>Estudo e desenvolvimento de bancos de dados relacionais, modelagem de informações, consultas complexas e gerenciamento de estruturas de dados.</p>
+        <p>Exploração de SQL para construção de sistemas consistentes, performáticos e integrados com aplicações backend.</p>
+        <ul>
+            <li>DDL, DML, DQL e DCL</li>
+            <li>JOINs e Subqueries</li>
+            <li>Stored Procedures e Functions</li>
+            <li>Triggers</li>
+            <li>Indexes e Query Optimization</li>
+            <li>Transactions e ACID</li>
+            <li>Normalization</li>
+            <li>PostgreSQL, SQL Server e SQLite</li>
+        </ul>
+    </div>
+    <pre class="code">
+SELECT
+    u.nome,
+    COUNT(v.id) AS total_vendas,
+    SUM(v.valor) AS faturamento
+FROM usuarios u
+INNER JOIN vendas v
+    ON v.usuario_id = u.id
+GROUP BY u.nome
+HAVING SUM(v.valor) > 1000
+ORDER BY faturamento DESC;
+    </pre>
+    <ul class="concepts">
+        <li>Relational Database Design</li>
+        <li>Query Optimization</li>
+        <li>Data Modeling</li>
+        <li>Database Transactions</li>
+        <li>Performance Tuning</li>
+    </ul>
+</article>
+
           <!-- #endregion -->
         </div>
 
