@@ -452,6 +452,60 @@ for port in [22, 80, 443, 3306]:
     </ul>
 </article>
 
+<!-- ====================================================== -->
+<!-- NETWORKING -->
+<!-- ====================================================== -->
+
+<article class="card">
+    <h2>Network Engineering</h2>
+    <p class="tag">Networking</p>
+    <p class="lang">Cisco / TCP-IP</p>
+    <p class="file">networking.txt</p>
+    <time class="date" datetime="2026-11-06">06 de novembro de 2026</time>
+    <div class="explanation">
+        <p>Estudo de redes de computadores, infraestrutura de comunicação e protocolos utilizados na comunicação entre dispositivos.</p>
+        <p>Desenvolvimento de laboratórios práticos utilizando Cisco Packet Tracer e ambientes reais de infraestrutura.</p>
+        <ul>
+            <li>TCP/IP e OSI Model</li>
+            <li>IPv4 e IPv6</li>
+            <li>Subnetting e CIDR</li>
+            <li>VLAN e Trunking</li>
+            <li>Routing e Switching</li>
+            <li>DNS, DHCP e NAT</li>
+            <li>ACL e Firewall</li>
+            <li>OSPF e Static Routing</li>
+        </ul>
+    </div>
+    <pre class="code">
+! Cisco IOS Configuration
+
+enable
+configure terminal
+
+hostname CORE-ROUTER
+
+interface gigabitEthernet 0/0
+ description LAN_NETWORK
+ ip address 192.168.1.254 255.255.255.0
+ no shutdown
+
+interface gigabitEthernet 0/1
+ description WAN_NETWORK
+ ip address 192.168.2.254 255.255.255.0
+ no shutdown
+
+end
+write memory
+    </pre>
+    <ul class="concepts">
+        <li>Network Architecture</li>
+        <li>Routing and Switching</li>
+        <li>Network Troubleshooting</li>
+        <li>Infrastructure Security</li>
+        <li>Cisco Packet Tracer</li>
+    </ul>
+</article>
+
           <!-- #endregion -->
         </div>
 
