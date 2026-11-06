@@ -308,6 +308,53 @@ process_data()
     </ul>
 </article>
 
+<!-- ====================================================== -->
+<!-- CRYPTOGRAPHY -->
+<!-- ====================================================== -->
+
+<article class="card">
+    <h2>Cryptography & Information Security</h2>
+    <p class="tag">Cryptography</p>
+    <p class="lang">Python / Mathematics</p>
+    <p class="file">cryptography.py</p>
+    <time class="date" datetime="2026-11-06">06 de novembro de 2026</time>
+    <div class="explanation">
+        <p>Estudo de criptografia e proteção da informação, explorando mecanismos matemáticos e computacionais utilizados para garantir confidencialidade, integridade e autenticidade.</p>
+        <p>Compreensão dos fundamentos de criptografia simétrica, assimétrica, funções hash e gerenciamento de chaves.</p>
+        <ul>
+            <li>AES e ChaCha20</li>
+            <li>RSA e ECC</li>
+            <li>SHA-256 e SHA-3</li>
+            <li>HMAC</li>
+            <li>Digital Signatures</li>
+            <li>Key Exchange (Diffie-Hellman)</li>
+            <li>PBKDF2, Argon2 e bcrypt</li>
+            <li>Entropy e Random Number Generation</li>
+        </ul>
+    </div>
+    <pre class="code">
+import hashlib
+
+def generate_hash(data: str) -> str:
+    encoded = data.encode("utf-8")
+
+    return hashlib.sha256(encoded).hexdigest()
+
+message = "Information Security"
+
+digest = generate_hash(message)
+
+print("SHA-256:", digest)
+    </pre>
+    <ul class="concepts">
+        <li>Cryptographic Algorithms</li>
+        <li>Data Integrity</li>
+        <li>Encryption and Decryption</li>
+        <li>Public Key Infrastructure</li>
+        <li>Secure Communication</li>
+    </ul>
+</article>
+
           <!-- #endregion -->
         </div>
 
