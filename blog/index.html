@@ -202,6 +202,55 @@ class Developer {
 </article>
 
 
+<!-- ====================================================== -->
+<!-- C# / .NET -->
+<!-- ====================================================== -->
+
+<article class="card">
+    <h2>.NET Development</h2>
+    <p class="tag">C# / .NET</p>
+    <p class="lang">C#</p>
+    <p class="file">Program.cs</p>
+    <time class="date" datetime="2026-11-06">06 de novembro de 2026</time>
+    <div class="explanation">
+        <p>Desenvolvimento de aplicações utilizando C# e o ecossistema .NET, com foco em APIs, sistemas MVC, integração com bancos de dados e arquitetura de software.</p>
+        <p>Estudo de aplicações modernas utilizando Entity Framework Core, ASP.NET Core, Identity e desenvolvimento de serviços.</p>
+        <ul>
+            <li>ASP.NET Core MVC</li>
+            <li>Minimal APIs e REST</li>
+            <li>Entity Framework Core</li>
+            <li>LINQ e Async/Await</li>
+            <li>Dependency Injection</li>
+            <li>Authentication e Authorization</li>
+            <li>SQL Server e SQLite</li>
+            <li>DTO, Services e Repository Pattern</li>
+        </ul>
+    </div>
+    <pre class="code">
+using Microsoft.EntityFrameworkCore;
+
+var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseSqlite("Data Source=app.db"));
+
+builder.Services.AddControllers();
+
+var app = builder.Build();
+
+app.MapControllers();
+
+app.Run();
+    </pre>
+    <ul class="concepts">
+        <li>ASP.NET Core</li>
+        <li>Entity Framework Core</li>
+        <li>RESTful APIs</li>
+        <li>Dependency Injection</li>
+        <li>Software Architecture</li>
+    </ul>
+</article>
+
           <!-- #endregion -->
         </div>
 
