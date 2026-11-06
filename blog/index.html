@@ -993,6 +993,66 @@ public class UserService : IUserService
     </ul>
 </article>
 
+<!-- ====================================================== -->
+<!-- RUBY ON RAILS -->
+<!-- ====================================================== -->
+
+<article class="card">
+    <h2>Ruby on Rails</h2>
+    <p class="tag">Ruby / Rails</p>
+    <p class="lang">Ruby</p>
+    <p class="file">products_controller.rb</p>
+    <time class="date" datetime="2026-11-06">06 de novembro de 2026</time>
+    <div class="explanation">
+        <p>Estudo de desenvolvimento web utilizando Ruby on Rails, explorando o padrão MVC e a produtividade do framework.</p>
+        <p>Construção de aplicações integradas com bancos de dados e interfaces modernas.</p>
+        <ul>
+            <li>MVC Architecture</li>
+            <li>Active Record</li>
+            <li>Rails Routing</li>
+            <li>CRUD Operations</li>
+            <li>Database Migrations</li>
+            <li>Hotwire e Turbo</li>
+            <li>ERB Templates</li>
+            <li>RESTful Controllers</li>
+        </ul>
+    </div>
+    <pre class="code">
+class ProductsController < ApplicationController
+  def index
+    @products = Product.all
+  end
+
+  def show
+    @product = Product.find(params[:id])
+  end
+
+  def create
+    @product = Product.new(product_params)
+
+    if @product.save
+      redirect_to products_path
+    else
+      render :new, status: :unprocessable_entity
+    end
+  end
+
+  private
+
+  def product_params
+    params.require(:product).permit(:name, :price)
+  end
+end
+    </pre>
+    <ul class="concepts">
+        <li>Ruby Development</li>
+        <li>MVC Architecture</li>
+        <li>Active Record ORM</li>
+        <li>Web Applications</li>
+        <li>Rapid Development</li>
+    </ul>
+</article>
+
           <!-- #endregion -->
         </div>
 
