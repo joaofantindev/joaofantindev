@@ -939,6 +939,60 @@ fetchUsers();
     </ul>
 </article>
 
+<!-- ====================================================== -->
+<!-- SOFTWARE ARCHITECTURE -->
+<!-- ====================================================== -->
+
+<article class="card">
+    <h2>Software Architecture & Engineering</h2>
+    <p class="tag">Software Engineering</p>
+    <p class="lang">C# / Java / Python</p>
+    <p class="file">architecture.md</p>
+    <time class="date" datetime="2026-11-06">06 de novembro de 2026</time>
+    <div class="explanation">
+        <p>Estudo de arquitetura e engenharia de software, buscando desenvolver aplicações organizadas, escaláveis, testáveis e de fácil manutenção.</p>
+        <p>Exploração de padrões de projeto, princípios de desenvolvimento e separação de responsabilidades.</p>
+        <ul>
+            <li>SOLID Principles</li>
+            <li>Clean Architecture</li>
+            <li>Domain-Driven Design</li>
+            <li>Design Patterns</li>
+            <li>Dependency Injection</li>
+            <li>DTO e Repository Pattern</li>
+            <li>Unit Testing</li>
+            <li>Separation of Concerns</li>
+        </ul>
+    </div>
+    <pre class="code">
+public interface IUserService
+{
+    Task<User?> GetByIdAsync(int id);
+}
+
+public class UserService : IUserService
+{
+    private readonly IUserRepository _repository;
+
+    public UserService(IUserRepository repository)
+    {
+        _repository = repository;
+    }
+
+    public async Task<User?> GetByIdAsync(int id)
+    {
+        return await _repository.GetByIdAsync(id);
+    }
+}
+    </pre>
+    <ul class="concepts">
+        <li>Clean Code</li>
+        <li>SOLID</li>
+        <li>Design Patterns</li>
+        <li>Scalable Systems</li>
+        <li>Maintainable Software</li>
+    </ul>
+</article>
+
           <!-- #endregion -->
         </div>
 
