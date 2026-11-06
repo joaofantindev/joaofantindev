@@ -551,6 +551,64 @@ int main() {
     </ul>
 </article>
 
+<!-- ====================================================== -->
+<!-- GO -->
+<!-- ====================================================== -->
+
+<article class="card">
+    <h2>Go Programming</h2>
+    <p class="tag">Golang</p>
+    <p class="lang">Go</p>
+    <p class="file">main.go</p>
+    <time class="date" datetime="2026-11-06">06 de novembro de 2026</time>
+    <div class="explanation">
+        <p>Estudo de Go com foco em desenvolvimento de ferramentas, serviços backend, infraestrutura e sistemas concorrentes.</p>
+        <p>Exploração de uma linguagem projetada para simplicidade, eficiência e aplicações distribuídas.</p>
+        <ul>
+            <li>Goroutines</li>
+            <li>Channels</li>
+            <li>Interfaces</li>
+            <li>Error Handling</li>
+            <li>Goroutine Synchronization</li>
+            <li>HTTP Servers</li>
+            <li>Context Package</li>
+            <li>Go Modules</li>
+        </ul>
+    </div>
+    <pre class="code">
+package main
+
+import (
+    "fmt"
+    "sync"
+)
+
+func worker(id int, wg *sync.WaitGroup) {
+    defer wg.Done()
+
+    fmt.Printf("Worker %d executed\n", id)
+}
+
+func main() {
+    var wg sync.WaitGroup
+
+    for i := 1; i <= 5; i++ {
+        wg.Add(1)
+        go worker(i, &wg)
+    }
+
+    wg.Wait()
+}
+    </pre>
+    <ul class="concepts">
+        <li>Concurrent Programming</li>
+        <li>Cloud Infrastructure</li>
+        <li>Backend Engineering</li>
+        <li>Distributed Systems</li>
+        <li>Systems Development</li>
+    </ul>
+</article>
+
           <!-- #endregion -->
         </div>
 
