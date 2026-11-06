@@ -699,6 +699,54 @@ df -h
     </ul>
 </article>
 
+<!-- ====================================================== -->
+<!-- DOCKER -->
+<!-- ====================================================== -->
+
+<article class="card">
+    <h2>Docker & Containerization</h2>
+    <p class="tag">DevOps</p>
+    <p class="lang">Docker</p>
+    <p class="file">Dockerfile</p>
+    <time class="date" datetime="2026-11-06">06 de novembro de 2026</time>
+    <div class="explanation">
+        <p>Estudo de containerização e ambientes isolados para execução e distribuição de aplicações.</p>
+        <p>Utilização de Docker para padronizar ambientes de desenvolvimento, facilitar deploys e organizar serviços.</p>
+        <ul>
+            <li>Docker Images</li>
+            <li>Docker Containers</li>
+            <li>Docker Compose</li>
+            <li>Volumes e Networks</li>
+            <li>Container Security</li>
+            <li>Multi-stage Builds</li>
+            <li>Environment Variables</li>
+            <li>Container Orchestration</li>
+        </ul>
+    </div>
+    <pre class="code">
+FROM python:3.12-slim
+
+WORKDIR /app
+
+COPY requirements.txt .
+
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY . .
+
+EXPOSE 5000
+
+CMD ["python", "app.py"]
+    </pre>
+    <ul class="concepts">
+        <li>Containerization</li>
+        <li>Infrastructure as Code</li>
+        <li>Application Deployment</li>
+        <li>DevOps</li>
+        <li>Environment Isolation</li>
+    </ul>
+</article>
+
           <!-- #endregion -->
         </div>
 
