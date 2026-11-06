@@ -251,6 +251,63 @@ app.Run();
     </ul>
 </article>
 
+<!-- ====================================================== -->
+<!-- PYTHON -->
+<!-- ====================================================== -->
+
+<article class="card">
+    <h2>Python Development</h2>
+    <p class="tag">Python</p>
+    <p class="lang">Python</p>
+    <p class="file">main.py</p>
+    <time class="date" datetime="2026-11-06">06 de novembro de 2026</time>
+    <div class="explanation">
+        <p>Desenvolvimento de scripts, automações, APIs e ferramentas utilizando Python, com foco em lógica de programação, otimização e integração de sistemas.</p>
+        <p>Exploração de recursos intermediários e avançados da linguagem, incluindo decorators, generators, concorrência e processamento paralelo.</p>
+        <ul>
+            <li>Object-Oriented Programming</li>
+            <li>Decorators e Generators</li>
+            <li>Multithreading e Multiprocessing</li>
+            <li>Asyncio e programação assíncrona</li>
+            <li>Flask e REST APIs</li>
+            <li>SQLite e PostgreSQL</li>
+            <li>Automação com Selenium</li>
+            <li>PyInstaller</li>
+        </ul>
+    </div>
+    <pre class="code">
+from functools import wraps
+import time
+
+def execution_time(func):
+    @wraps(func)
+    def wrapper(*args, **kwargs):
+        start = time.perf_counter()
+
+        result = func(*args, **kwargs)
+
+        elapsed = time.perf_counter() - start
+        print(f"Execution: {elapsed:.4f}s")
+
+        return result
+
+    return wrapper
+
+@execution_time
+def process_data():
+    return sum(range(1_000_000))
+
+process_data()
+    </pre>
+    <ul class="concepts">
+        <li>Automation</li>
+        <li>Performance Optimization</li>
+        <li>Concurrency</li>
+        <li>Backend Development</li>
+        <li>Python Internals</li>
+    </ul>
+</article>
+
           <!-- #endregion -->
         </div>
 
