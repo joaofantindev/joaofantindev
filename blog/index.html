@@ -400,6 +400,58 @@ ORDER BY faturamento DESC;
     </ul>
 </article>
 
+<!-- ====================================================== -->
+<!-- CYBERSECURITY -->
+<!-- ====================================================== -->
+
+<article class="card">
+    <h2>Cybersecurity Engineering</h2>
+    <p class="tag">Cybersecurity</p>
+    <p class="lang">Python / Linux / Networking</p>
+    <p class="file">security_audit.py</p>
+    <time class="date" datetime="2026-11-06">06 de novembro de 2026</time>
+    <div class="explanation">
+        <p>Estudo de segurança da informação, análise de vulnerabilidades, segurança de aplicações e proteção de infraestrutura.</p>
+        <p>Exploração de metodologias de pentest, análise de riscos e frameworks utilizados em ambientes profissionais.</p>
+        <ul>
+            <li>OWASP Top 10 e WSTG</li>
+            <li>PTES, ISSAF e OSSTMM</li>
+            <li>MITRE ATT&CK</li>
+            <li>NIST Cybersecurity Framework</li>
+            <li>Vulnerability Assessment</li>
+            <li>Network Security</li>
+            <li>Application Security</li>
+            <li>Incident Response</li>
+        </ul>
+    </div>
+    <pre class="code">
+import socket
+
+def check_port(host, port):
+    try:
+        with socket.create_connection(
+            (host, port), timeout=2
+        ):
+            return True
+    except OSError:
+        return False
+
+host = "127.0.0.1"
+
+for port in [22, 80, 443, 3306]:
+    status = check_port(host, port)
+
+    print(f"{port}: {'OPEN' if status else 'CLOSED'}")
+    </pre>
+    <ul class="concepts">
+        <li>Offensive Security</li>
+        <li>Defensive Security</li>
+        <li>Vulnerability Analysis</li>
+        <li>Security Auditing</li>
+        <li>Threat Modeling</li>
+    </ul>
+</article>
+
           <!-- #endregion -->
         </div>
 
